@@ -13,9 +13,11 @@
 		B44FB9BD280E0A0D00FC47F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44FB9BB280E0A0D00FC47F2 /* Main.storyboard */; };
 		B44FB9BF280E0A1000FC47F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44FB9BE280E0A1000FC47F2 /* Assets.xcassets */; };
 		B44FB9C2280E0A1000FC47F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44FB9C0280E0A1000FC47F2 /* LaunchScreen.storyboard */; };
-		B4A174EF280F9BE7003B53B1 /* AtributosTablas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A174EE280F9BE7003B53B1 /* AtributosTablas.swift */; };
+		B4A174EF280F9BE7003B53B1 /* AtributosSecciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A174EE280F9BE7003B53B1 /* AtributosSecciones.swift */; };
 		B4A174F1280F9C07003B53B1 /* CerebroTablas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A174F0280F9C07003B53B1 /* CerebroTablas.swift */; };
 		B4A174F3280F9C40003B53B1 /* VistaDetallesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A174F2280F9C40003B53B1 /* VistaDetallesViewController.swift */; };
+		B4A174F5280FC3A7003B53B1 /* AtributosNombres.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A174F4280FC3A7003B53B1 /* AtributosNombres.swift */; };
+		B4A174F7280FC3B4003B53B1 /* AtributosEquipos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A174F6280FC3B4003B53B1 /* AtributosEquipos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +29,11 @@
 		B44FB9BE280E0A1000FC47F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B44FB9C1280E0A1000FC47F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B44FB9C3280E0A1000FC47F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4A174EE280F9BE7003B53B1 /* AtributosTablas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtributosTablas.swift; sourceTree = "<group>"; };
+		B4A174EE280F9BE7003B53B1 /* AtributosSecciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtributosSecciones.swift; sourceTree = "<group>"; };
 		B4A174F0280F9C07003B53B1 /* CerebroTablas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerebroTablas.swift; sourceTree = "<group>"; };
 		B4A174F2280F9C40003B53B1 /* VistaDetallesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaDetallesViewController.swift; sourceTree = "<group>"; };
+		B4A174F4280FC3A7003B53B1 /* AtributosNombres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtributosNombres.swift; sourceTree = "<group>"; };
+		B4A174F6280FC3B4003B53B1 /* AtributosEquipos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtributosEquipos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +98,9 @@
 		B4A174ED280F9B7E003B53B1 /* Modelo */ = {
 			isa = PBXGroup;
 			children = (
-				B4A174EE280F9BE7003B53B1 /* AtributosTablas.swift */,
+				B4A174EE280F9BE7003B53B1 /* AtributosSecciones.swift */,
+				B4A174F4280FC3A7003B53B1 /* AtributosNombres.swift */,
+				B4A174F6280FC3B4003B53B1 /* AtributosEquipos.swift */,
 				B4A174F0280F9C07003B53B1 /* CerebroTablas.swift */,
 			);
 			path = Modelo;
@@ -172,8 +178,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4A174F3280F9C40003B53B1 /* VistaDetallesViewController.swift in Sources */,
-				B4A174EF280F9BE7003B53B1 /* AtributosTablas.swift in Sources */,
+				B4A174EF280F9BE7003B53B1 /* AtributosSecciones.swift in Sources */,
 				B44FB9BA280E0A0D00FC47F2 /* MainViewController.swift in Sources */,
+				B4A174F5280FC3A7003B53B1 /* AtributosNombres.swift in Sources */,
+				B4A174F7280FC3B4003B53B1 /* AtributosEquipos.swift in Sources */,
 				B4A174F1280F9C07003B53B1 /* CerebroTablas.swift in Sources */,
 				B44FB9B6280E0A0D00FC47F2 /* AppDelegate.swift in Sources */,
 				B44FB9B8280E0A0D00FC47F2 /* SceneDelegate.swift in Sources */,
@@ -333,6 +341,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -361,6 +370,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
